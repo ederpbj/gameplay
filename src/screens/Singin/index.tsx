@@ -31,7 +31,7 @@ export function Signin() {
         <Text style={styles.title}>
           Organize  {`\n`}
           suas jogatinas {`\n`}
-          facilmente
+          facilmente.
           
           {/* Outra forma
           {`Organize  
