@@ -9,7 +9,7 @@ import {
 
 import { styles } from './styles';
 import IlustrationImg from '../../assets/illustration.png';
-
+import {ButtonIcon} from '../../components/ButtonIcon';
 export function Signin() {
   // const [text, setText] = useState('Seu nome');
 
@@ -44,6 +44,8 @@ export function Signin() {
           Crie grupos para jogar seus games {`\n`}
           favoritos com seus amigos {`\n`}
         </Text>
+
+        <ButtonIcon />
       </View>
       {/* <Text>Signin</Text>
       <TextInput 
