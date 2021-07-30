@@ -3,10 +3,12 @@ import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
   container: {
+    width: '100%',
+    height: '100%',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: theme.colors.background
+    backgroundColor: theme.colors.background,
   },
 
   image: {
@@ -15,6 +17,7 @@ export const styles = StyleSheet.create({
   },
   content: {
     marginTop: -40,
+    paddingHorizontal: 50 //margem horizontal do botão
   },
   title: {
     color: theme.colors.heading,

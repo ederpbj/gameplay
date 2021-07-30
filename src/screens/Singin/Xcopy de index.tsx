@@ -32,7 +32,12 @@ export function Signin() {
           Organize  {`\n`}
           suas jogatinas {`\n`}
           facilmente.
-         
+          
+          {/* Outra forma
+          {`Organize  
+          suas jogatinas
+          facilmente`} 
+          */}
         </Text>
 
         <Text style={styles.subtitle}>
@@ -40,11 +45,17 @@ export function Signin() {
           favoritos com seus amigos {`\n`}
         </Text>
 
-        <ButtonIcon 
-          title="Entrar com Discord"
-          activeOpacity={0.7}
-        />
+        <ButtonIcon />
       </View>
+      {/* <Text>Signin</Text>
+      <TextInput 
+        style={styles.input} 
+        onChangeText={setText}
+      />
+
+      <Text>
+        Você digitou: {text}
+      </Text> */}
     </View>
   );
 }

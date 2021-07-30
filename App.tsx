@@ -6,7 +6,6 @@ import { Signin } from './src/screens/Singin';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Olá expo</Text>
       <Signin />
       {/* <StatusBar style="auto" /> */}
     </View>
