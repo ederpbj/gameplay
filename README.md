@@ -8,6 +8,13 @@
 
 [Google fonts](https://fonts.google.com/)
 
+[Figma do projeto](https://www.figma.com/file/RWB2TONQQoSSb3WZGii6yx/GamePlay---NLW-Together-(Copy)?node-id=58913%3A83)
+
+[Iphone helper](https://github.com/ptelad/react-native-iphone-x-helper)
+
+[React navigation](https://reactnavigation.org/)
+
+
 ### Comandos
 
 Criar aplicativo para gamers
@@ -48,4 +55,22 @@ Tela preload aguarda instalar a fonte
 
 ```jsx
 expo install expo-app-loading
+```
+
+Instalar efeito linearGradient, da documentação expo
+
+```jsx
+expo install expo-linear-gradient
+```
+
+Instalar react navigation
+
+```jsx
+yarn add @react-navigation/native
+```
+
+Dependências do expo navigate
+
+```jsx
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```

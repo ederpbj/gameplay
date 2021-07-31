@@ -1,4 +1,4 @@
-//Estilo global, centraliza as cores
+//Estilo global, centraliza e organizar as cores
 export const theme = {
   colors: {
     primary: '#E51C44',

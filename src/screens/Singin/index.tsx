@@ -2,9 +2,7 @@ import React, {useState} from 'react';
 import { 
   Text, 
   View, 
-  TextInput,
-  Image,
-  StatusBar 
+  Image
 } from 'react-native';
 
 import { styles } from './styles';
@@ -16,11 +14,7 @@ export function Signin() {
 
   return (
     <View style={styles.container}>
-      <StatusBar 
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
+      
       <Image 
         source={IlustrationImg} 
         style={styles.image}
