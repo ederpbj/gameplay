@@ -74,3 +74,16 @@ Dependências do expo navigate
 ```jsx
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 ```
+
+Error
+Instalar expo cli
+
+```
+npm install -g expo-cli
+```
+
+xx
+```
+```
+
+time: A02: 01:09

@@ -8,7 +8,7 @@ import {
 import { styles } from './styles';
 import IlustrationImg from '../../assets/illustration.png';
 import {ButtonIcon} from '../../components/ButtonIcon';
-export function Signin() {
+export function SignIn() {
   // const [text, setText] = useState('Seu nome');
 
 
