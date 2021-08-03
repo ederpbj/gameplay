@@ -1,22 +1,22 @@
 import React from 'react';
-import { 
-  Text,
-  Image, 
-  View,
-  TouchableOpacity, 
-  TouchableOpacityProps, 
-} from 'react-native';
+//para ações de botões do usuário
+import {RectButton, RectButtonProps} from 'react-native-gesture-handler';
+
+import { Text, Image, View} from 'react-native';
+//TouchableOpacity, //TouchableOpacityProps,
 
 import DiscordImg from '../../assets/discord.png';
 import {styles} from './styles';
 
 //Criamos novo tipo, junto com as propriedades do touchableOpacity
-type Props = TouchableOpacityProps & {
+// type Props = TouchableOpacityProps & {
+type Props = RectButtonProps & {
   title: string;
 }
 export function ButtonIcon({ title, ...rest }: Props){
   return (
-    <TouchableOpacity 
+    // <TouchableOpacity
+    <RectButton 
       style={styles.container} 
       {...rest} //pega todo resto das propriedades
     >
@@ -29,6 +29,7 @@ export function ButtonIcon({ title, ...rest }: Props){
         {/* Entrar com Discord */}
 
       </Text>
-    </TouchableOpacity>
+    </RectButton>
+    // </TouchableOpacity>
   )
 }

@@ -14,6 +14,11 @@
 
 [React navigation](https://reactnavigation.org/)
 
+[Expo vector icons](https://icons.expo.fyi/)
+
+[Expo Svg](https://docs.expo.dev/versions/latest/sdk/svg/)
+
+[Sgv transform gihub](https://github.com/kristerkari/react-native-svg-transformer)
 
 ### Comandos
 
@@ -82,8 +87,20 @@ Instalar expo cli
 npm install -g expo-cli
 ```
 
-xx
+
+Expo sgv Instalar
+
 ```
+expo install react-native-svg
 ```
 
 time: A02: 01:09
+
+Sgv transform
+```
+yarn add --dev react-native-svg-transformer
+```
+
+xx
+```
+```

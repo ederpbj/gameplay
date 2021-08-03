@@ -1,16 +1,23 @@
 import React, {useState} from 'react';
-import { 
-  Text, 
-  View, 
-  Image
-} from 'react-native';
+
+import { Text, View, Image} from 'react-native';
+
+//Para rotas de navegação
+import {useNavigation} from '@react-navigation/native';
 
 import { styles } from './styles';
 import IlustrationImg from '../../assets/illustration.png';
 import {ButtonIcon} from '../../components/ButtonIcon';
-export function SignIn() {
-  // const [text, setText] = useState('Seu nome');
 
+export function SignIn() {
+  const navigation = useNavigation();
+
+  //handle = ações disparadas pelo usuário
+  function handleSignIn(){
+    //vai para tela Home, após apertar o botão
+    navigation.navigate('Home');
+  }
+  // const [text, setText] = useState('Seu nome');
 
   return (
     <View style={styles.container}>
@@ -36,7 +43,8 @@ export function SignIn() {
 
         <ButtonIcon 
           title="Entrar com Discord"
-          activeOpacity={0.7}
+          //activeOpacity={0.7}, não precisa por conta do ReactButton
+          onPress={handleSignIn}
         />
       </View>
     </View>
