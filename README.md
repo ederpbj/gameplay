@@ -100,7 +100,7 @@ Sgv transform
 ```
 yarn add --dev react-native-svg-transformer
 ```
-
+time: 1:56
 xx
 ```
 ```
