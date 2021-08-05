@@ -20,6 +20,8 @@
 
 [Sgv transform gihub](https://github.com/kristerkari/react-native-svg-transformer)
 
+[Configurar Emulador](https://docs.rocketseat.dev/ambiente-react-native/android/emulador)
+
 ### Comandos
 
 Criar aplicativo para gamers
@@ -94,13 +96,21 @@ Expo sgv Instalar
 expo install react-native-svg
 ```
 
-time: A02: 01:09
+
 
 Sgv transform
 ```
 yarn add --dev react-native-svg-transformer
 ```
-time: 1:56
+### FlatList 
+
+* Indicada utilizar quando tem muitos elementos
+
+### ScrollView
+
+* Renderiza de uma vez
+* Indicada para poucos elementos
+
 xx
 ```
 ```
